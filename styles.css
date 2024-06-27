@@ -1,0 +1,130 @@
+:root {
+    --g1: rgb(0, 208, 255);
+    --g2: rgb(198, 201, 251);
+  }
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+  body {
+    animation: background-pan 31s linear infinite; /* ease infinte? */
+    background: linear-gradient(
+    /*  to right, */
+      to right,
+      var(--g2),
+      var(--g1),
+      var(--g2)
+    );
+    background-size: 200%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 174, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.heading {
+    font-family: 'Rajdhani';
+    text-align: center;
+    color: whitesmoke; 
+    font-size: 110px; 
+    padding-left: 15px;
+}
+.subHeading {
+    font-family: 'Rajdhani';
+    font-weight: 300;
+    text-align: center;
+    color: whitesmoke; 
+    font-size: 90px; 
+    padding-left: 55px;
+    padding-top: 40px;
+}
+.data {
+    font-family: 'Rajdhani';
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.tableParent { 
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+} 
+.tableMenu2, .data {
+    padding-top: 12px;
+    text-align: center;
+    padding: 25px;
+    transition-duration: 0.1s; 
+}
+
+.tableMenu2 .data:hover {
+    padding-top: 5px;
+    transition-duration: 0.1s;
+} 
+
+.custom-card-title {
+    font-family: 'Rajdhani';
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(121, 235, 255);
+}
+.custom-card-subtitle {
+  font-family: 'Rajdhani';
+  font-weight: 300;
+  font-size: 18px;
+  color: rgb(121, 235, 255);
+}
+
+.card-body {
+    background-color: rgb(54, 54, 60);
+    border-radius: 5px;
+}
+
+.card-text {
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    color: rgb(160, 204, 223);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    font-family: 'Rajdhani';
+    font-weight: 300;
+    text-align: center;
+ } 
+
+.card-image {
+  height: 7%;
+  width: 9%;
+}
+ 

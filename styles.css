@@ -31,28 +31,27 @@ body {
   margin: 0px;
 }
 
-article {
-  width: 100%;
-  min-height: 100vh;
-  background: black;
-  opacity: 1;
-  display: grid;
+p {
+  font-family: 'Rajdhani';
+  font-weight: 400;
+  font-size: 22px;
+
 }
 
-  a:link, a:visited {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: none;
-    display: inline-block;
-    transition: transform 0.1s;
-  }
+a:link, a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.1s;
+}
   
-  a:hover {
-    color: rgb(0, 174, 255);
-    background-color: transparent;
-    text-decoration: none;
-    transform: translateY(-9px);
-  }
+a:hover {
+  color: rgb(0, 174, 255);
+  background-color: transparent;
+  text-decoration: none;
+  transform: translateY(-9px);
+}
 
 a:active {
   color: rgb(255, 255, 255);
@@ -61,11 +60,10 @@ a:active {
 }
 
 .heading {
-    font-family: 'Rajdhani';
-    text-align: center;
-    color: whitesmoke; 
-    font-size: 110px; 
-    padding-left: 15px;
+  font-family: 'Rajdhani';
+  text-align: center;
+  color: whitesmoke; 
+  font-size: 110px; 
 }
 
 .subHeading {
@@ -73,17 +71,13 @@ a:active {
   font-weight: 300;
   text-align: center;
   color: whitesmoke; 
-  font-size: 90px; 
-  padding-left: 55px;
-  padding-top: 40px;
+  font-size: 80px; 
+  padding-bottom: 5%;
 }
 
 @media (max-width: 378px) {
   .heading {
       font-size: 3em;
-  }
-  .subHeading {
-    font-size: 3em; 
   }
   .row {
     font-size: 30px;

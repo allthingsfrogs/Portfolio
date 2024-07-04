@@ -16,7 +16,7 @@ to {
 }
 }
   
-body {
+html, body {
   animation: background-pan 31s linear infinite; /* ease infinte? */
   background: linear-gradient(
   /*  to right, */
@@ -27,7 +27,7 @@ body {
   );
   background-size: 200%;
   height: 100vh;
-  /*overflow: hidden;*/
+  overflow: hidden;
   margin: 0px;
 }
 
@@ -36,6 +36,23 @@ p {
   font-weight: 400;
   font-size: 22px;
 
+}
+
+.navbar-custom {
+  background-color: rgb(54, 54, 60);
+}
+
+.navbar-nav > li > a:hover{
+  color: rgb(0, 174, 255);
+}
+
+.navbar-brand:hover{
+  color: rgb(0, 174, 255) !important;
+}
+
+.navbar-custom 
+.navbar-toggler {
+border-color: #3f4344; /* Replace with your desired border color for the toggler button */
 }
 
 a:link, a:visited {
@@ -75,19 +92,11 @@ a:active {
   padding-bottom: 5%;
 }
 
-@media (max-width: 378px) {
-  .heading {
-      font-size: 3em;
-  }
-  .row {
-    font-size: 30px;
-  }
-  .custom-p {  
-    font-family: 'Rajdhani';
-    font-weight: 400;
-    color: rgb(160, 204, 223);
-    font-size: 10px;
-  }
+.card-image {
+  display: block;
+  max-width: 85%;
+  max-height: fit-content;
+  min-width: 140px;
 }
 
 .centerCol {
@@ -97,8 +106,8 @@ a:active {
 .data {
   font-family: 'Rajdhani';
   color: whitesmoke;
-  font-size: 40px;
-  text-align: left;
+  font-size: 38px;
+  text-align: center;
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -106,6 +115,7 @@ a:active {
 .data:hover {
   transform: translateY(-5px);
 }
+
 .tableParent { 
     position: absolute;
     top: 50%;
@@ -116,7 +126,7 @@ a:active {
 .custom-card-title {
     font-family: 'Rajdhani';
     font-weight: 300;
-    font-size: 30px;
+    font-size: 36px;
     color: rgb(121, 235, 255);
 }
 .custom-card-subtitle {
@@ -153,6 +163,48 @@ a:active {
 .card-image {
   height: 7%;
   width: 9%;
+}
+
+
+@media (max-width: 378px) {
+  .heading {
+      font-size: 3em;
+  }
+  .row {
+    font-size: 30px;
+  }
+  .custom-p {  
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    color: rgb(160, 204, 223);
+    font-size: 10px;
+  }
+  .data {
+    font-family: 'Rajdhani';
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+      font-size: 3em;
+  }
+  .row {
+    font-size: 42px;
+  }
+  .custom-p {  
+    font-family: 'Rajdhani';
+    font-weight: 400;
+    color: rgb(160, 204, 223);
+    font-size: 14px;
+  }
+  .data {
+    font-size: 42px;
+  }
 }
 
  

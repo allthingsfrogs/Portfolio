@@ -14,102 +14,69 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html" class="data">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="about.html" class="data">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html" class="data">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/allthingsfrogs?tab=repositories/" target="_blank" rel="noopener noreferrer" class="data">GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/eromero19/" target="_blank" rel="noopener noreferrer" class="data">LinkedIn</a>
-        </li>
-      </ul>
+      <a class="navbar-brand data" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link data" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link data" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link data" href="https://github.com/allthingsfrogs?tab=repositories/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link data" href="https://www.linkedin.com/in/eromero19/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+
     
   <div class="container-fluid bg-3 d-flex flex-column justify-content-center align-items-center" style="padding-top: 45px;">
     <div class="col-12 heading text-center">Projects</div>
 
     <div class="row">
-        <div class="col-sm-9 mx-auto">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="custom-card-title">YGO Market Watch</h5>
-              <p class="card-text"><img class="card-image" src="YGO.png"> Created a website utilizing the
-                Django framework, integrated an external API allowing the user to query detailed Yu-Gi-Oh trading card 
-                information from an SQLite database, track price changes over time, and facilitate easy card price comparisons.
-              </p>
-            </div>
-          </div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-sm-9 mx-auto">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="custom-card-title">Stock Picker</h5>
-              <h3 class="custom-card-subtitle"> Python, Flask, AWS, JavaScript/Jquery, AJAX, HTML/CSS,</h3>
-              <p class="card-text"> A web app that displays the latest information about a desired stock. 
-                Hosted on AWS, this app uses Flask for the backend to retrieve and send data to the TiingoStocks API
-                using AJAX for a smooth user experience.</p>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="row">
       <div class="col-sm-9 mx-auto">
         <div class="card mt-3">
-          <div class="card-body">
-            <h5 class="custom-card-title">YGO Market Watch</h5>
-            <p class="card-text"><img class="card-image" src="YGO.png"> Created a website utilizing the
-              Django framework, integrated an external API allowing the user to query detailed Yu-Gi-Oh trading card 
-              information from an SQLite database, track price changes over time, and facilitate easy card price comparisons.
-            </p>
+          <div class="row card-body">
+            <img class="col-sm-3 col-9 card-image" src="YGO.png">
+            <div class="col-sm-9 col-9">
+              <a href="https://github.com/allthingsfrogs/YGO-Price-Watch" target="_blank" rel="noopener noreferrer" class="custom-card-title">YGO Market Watch</a>
+              <h3 class="custom-card-subtitle">Python, Django, Bootstrap, HTML/CSS, SQLite</h3>
+              <p class="card-text">Created a website utilizing the
+                Django framework, integrated an external API allowing the user to query detailed Yu-Gi-Oh trading card 
+                information from an SQLite database, track price changes over time, and facilitate easy card price comparisons.</p>
+              </div>
           </div>
         </div>
       </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-9 mx-auto">
-      <div class="card mt-3">
-        <div class="card-body">
-          <h5 class="custom-card-title">Stock Picker</h5>
-          <h3 class="custom-card-subtitle"> Python, Flask, AWS, JavaScript/Jquery, AJAX, HTML/CSS,</h3>
-          <p class="card-text"> A web app that displays the latest information about a desired stock. 
-            Hosted on AWS, this app uses Flask for the backend to retrieve and send data to the TiingoStocks API
-            using AJAX for a smooth user experience.</p>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-9 mx-auto">
-      <div class="card mt-3">
-        <div class="card-body">
-          <h5 class="custom-card-title">Stock Picker</h5>
-          <h3 class="custom-card-subtitle"> Python, Flask, AWS, JavaScript/Jquery, AJAX, HTML/CSS,</h3>
-          <p class="card-text"> A web app that displays the latest information about a desired stock. 
-            Hosted on AWS, this app uses Flask for the backend to retrieve and send data to the TiingoStocks API
-            using AJAX for a smooth user experience.</p>
+    <div class="row">
+        <div class="col-sm-9 mx-auto">
+          <div class="card mt-3">
+            <div class="row card-body">
+              <img class="col-sm-3 col-9 card-image" src="StockPickerImage1.png">
+              <div class="col-sm-9 col-9">
+                <a href="https://github.com/allthingsfrogs/StockPicker" target="_blank" rel="noopener noreferrer" class="custom-card-title">Stock Picker</a>
+                <h3 class="custom-card-subtitle"> Python, Flask, AWS, JavaScript/Jquery, AJAX, HTML/CSS</h3>
+                <p class="card-text">A web app that displays the latest information about a desired stock. 
+                Hosted on AWS, this app uses Flask for the backend to retrieve and send data to the TiingoStocks API
+                using AJAX for a smooth user experience.</p>
+                </div>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
-  </div>
-
+  
   </div>
 
 </body>

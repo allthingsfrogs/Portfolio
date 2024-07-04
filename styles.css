@@ -1,6 +1,6 @@
 :root {
     --g1: rgb(0, 208, 255);
-    --g2: rgb(198, 201, 251);
+    --g2: rgb(169, 175, 250);
 }
 
 * {
@@ -168,7 +168,7 @@ a:active {
 
 @media (max-width: 378px) {
   .heading {
-      font-size: 3em;
+    font-size: 3em;
   }
   .row {
     font-size: 30px;
@@ -191,7 +191,7 @@ a:active {
 
 @media (max-width: 600px) {
   .heading {
-      font-size: 3em;
+    font-size: 3em;
   }
   .row {
     font-size: 42px;

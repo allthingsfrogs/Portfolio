@@ -27,7 +27,7 @@ html, body {
   );
   background-size: 200%;
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin: 0px;
 }
 

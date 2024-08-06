@@ -121,6 +121,10 @@ a:active {
   transform: translateY(-5px);
 }
 
+.bs-icons {
+  vertical-align: 4px;
+}
+
 .tableParent { 
     position: absolute;
     top: 50%;
@@ -205,10 +209,10 @@ a:active {
     font-family: 'Rajdhani';
     font-weight: 400;
     color: rgb(160, 204, 223);
-    font-size: 14px;
+    font-size: 12px;
   }
   .data {
-    font-size: 42px;
+    font-size: 39px;
   }
 }
 

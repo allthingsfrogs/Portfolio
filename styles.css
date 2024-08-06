@@ -55,6 +55,11 @@ p {
 border-color: #3f4344; /* Replace with your desired border color for the toggler button */
 }
 
+.navbar-nav .nav-item {
+  margin-right: 19px;
+  margin-left: 19px;
+}
+
 a:link, a:visited {
   color: rgb(255, 255, 255);
   background-color: transparent;
